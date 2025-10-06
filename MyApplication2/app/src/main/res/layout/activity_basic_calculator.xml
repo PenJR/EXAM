@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown"
         android:layout_columnSpan="4"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <TextView
         android:id="@+id/result"
@@ -24,7 +24,8 @@
         android:gravity="end"
         android:padding="10dp"
         android:layout_columnSpan="4"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7A7878" />/>
 
     <!-- Row 1 -->
     <Button android:id="@+id/btn7" android:text="7" />

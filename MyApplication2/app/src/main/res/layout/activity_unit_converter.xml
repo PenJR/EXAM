@@ -11,15 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <Spinner
         android:id="@+id/categorySpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <EditText
         android:id="@+id/inputValue"
@@ -34,8 +34,8 @@
         android:id="@+id/unitSpinnerFrom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <Button
         android:id="@+id/btnSwap"
@@ -50,8 +50,8 @@
         android:id="@+id/unitSpinnerTo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <Button
         android:id="@+id/btnConvertUnit"

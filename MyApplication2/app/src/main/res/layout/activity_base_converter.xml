@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
         android:spinnerMode="dropdown"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <Spinner
         android:id="@+id/baseSpinner"
@@ -23,8 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
         android:layout_marginTop="6dp"
-        android:background="@android:color/darker_gray"
-        android:popupBackground="#333333" />
+        android:background="#FFFFFF"
+        android:popupBackground="#FFFFFF" />
 
     <TextView
         android:id="@+id/resultDisplay"
@@ -36,7 +36,8 @@
         android:padding="8dp"
         android:layout_columnSpan="4"
         android:layout_marginTop="6dp"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7A7878" />/>
 
     <!-- Row 1 -->
     <Button android:id="@+id/btn7" android:text="7" />
