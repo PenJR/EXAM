@@ -5,25 +5,27 @@
     android:layout_height="match_parent"
     android:columnCount="4"
     android:rowCount="8"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:background="#000000"> <!-- Dark background -->
 
-    <!-- Top Navigation Spinner -->
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
-        android:spinnerMode="dropdown" />
+        android:spinnerMode="dropdown"
+        android:background="@android:color/darker_gray"
+        android:popupBackground="#333333" />
 
-    <!-- Base Type Spinner -->
     <Spinner
         android:id="@+id/baseSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="6dp"
+        android:background="@android:color/darker_gray"
+        android:popupBackground="#333333" />
 
-    <!-- Result / Input display -->
     <TextView
         android:id="@+id/resultDisplay"
         android:layout_width="match_parent"
@@ -33,7 +35,8 @@
         android:gravity="end"
         android:padding="8dp"
         android:layout_columnSpan="4"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF" />
 
     <!-- Row 1 -->
     <Button android:id="@+id/btn7" android:text="7" />
