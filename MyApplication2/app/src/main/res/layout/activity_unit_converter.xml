@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main App Spinner -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"/>
+
+    <!-- Category Selector -->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Value Input -->
+    <EditText
+        android:id="@+id/inputValue"
+        android:hint="Enter Value"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- From Spinner -->
+    <Spinner
+        android:id="@+id/unitSpinnerFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Swap Button -->
+    <Button
+        android:id="@+id/btnSwap"
+        android:text="🔁 Swap Units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <!-- To Spinner -->
+    <Spinner
+        android:id="@+id/unitSpinnerTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Convert Button -->
+    <Button
+        android:id="@+id/btnConvertUnit"
+        android:text="Convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result here"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
